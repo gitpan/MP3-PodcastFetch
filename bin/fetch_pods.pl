@@ -230,7 +230,7 @@ configuration file in the following locations:
   /path/to/this/binary/../conf/fetchpods.conf
 
 The script will stop and process the first configuration file it
-finds. Note that when you installed this script, it creates a default
+finds. Note that when you installed this script, it created a default
 fetchpods.conf in /etc/fetchpods.conf. You may want to delete this
 file.
 

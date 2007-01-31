@@ -1,6 +1,7 @@
 bin/fetch_pods.pl
 bin/fetch_pods.PLS
 Build.PL
+Changes
 conf/fetchpods.conf
 conf/sample_conf.conf
 lib/MP3/PodcastFetch.pm

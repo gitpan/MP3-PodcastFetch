@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# $Id
+# $Id: fetch_pods.PLS,v 1.8 2007/01/02 01:34:22 lstein Exp $
 # Warning: do not directly edit this file. Edit fetch_pods.PLS and rerun Build
 use strict;
 use warnings;

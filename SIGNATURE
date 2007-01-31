@@ -15,20 +15,21 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 42bc7c41b4376d079d287dc0ae6ae3f533a9e6fe Build.PL
-SHA1 635e64d7003e28d1c043b7ba86df3279ccfc7bad MANIFEST
-SHA1 c84aab87454c5700cd9ae815e5400e631268f00c META.yml
+SHA1 a4c65d8d321cedd40d0c80372c1cd83c76f8c10c Changes
+SHA1 a0093c7864580d74d1b79fadd7c2b67c35bba108 MANIFEST
+SHA1 bbb69f97760950342f3e551f2485141e05888e0a META.yml
 SHA1 3c4be02b01f84d0b72b73144a914b22eceeb0451 Makefile.PL
 SHA1 8195e60db450b2636719bd217396e35d4672d231 README
-SHA1 34407b0a11f06d364d596b50cc2703d7abcf81b2 bin/fetch_pods.PLS
-SHA1 ecf68614f56babe04dac135a690b4bc1b16af8c4 bin/fetch_pods.pl
+SHA1 58ad72fda2a097ac243fd80afb3a97b6133e9fc1 bin/fetch_pods.PLS
+SHA1 9b92bc3d6332b1446e9d380ade23d1bbf5e42095 bin/fetch_pods.pl
 SHA1 2439e199b178a78763d07bb2b816238bc1eed4c0 conf/fetchpods.conf
 SHA1 7ee44aaaee31da43065efd8cc24aacc584bd8795 conf/sample_conf.conf
-SHA1 35ff373ce439cecf4cbeb043eb909f22e7bc99a4 lib/MP3/PodcastFetch.pm
+SHA1 1bce0a97ddd4df600fe04f556caeedd959b486d5 lib/MP3/PodcastFetch.pm
 SHA1 c081b25502306c2cae67364b87e69703ce3baeb6 lib/MP3/PodcastFetch/Feed.pm
-SHA1 f13093706e5998bb8e549f6de7a60fe8e8dfc7a0 lib/MP3/PodcastFetch/Feed/Channel.pm
+SHA1 704d07cf055a92191bebaa1d9917eaabf2fde74a lib/MP3/PodcastFetch/Feed/Channel.pm
 SHA1 afe8d774ea4f9d99b1ed2e0afa70a62ae7bdcec4 lib/MP3/PodcastFetch/Feed/Item.pm
 SHA1 97001f25794758f414f1356d7dd46fb604a7dd5d lib/MP3/PodcastFetch/TagManager.pm
-SHA1 ed7adfc89946453ca87596f6072cd5057213cacc lib/MP3/PodcastFetch/XML/SimpleParser.pm
+SHA1 7263c462f29fff0b58c47fb1edfd4da8db1e634f lib/MP3/PodcastFetch/XML/SimpleParser.pm
 SHA1 19c54227595321ef9fae11750fd22d8578d28a1f t/01.basic.t
 SHA1 c6ed52bac0c532d0073485c7bae5c8409cd039a1 t/data/test.xml
 SHA1 a062667dbc0b8450f272e18a77ca2ade850cd9c7 t/data/test1.mp3
@@ -36,7 +37,7 @@ SHA1 f2b9abfd6ebb7380cafbd2b09122abfe6a5227ed t/data/test2.mp3
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.2 (GNU/Linux)
 
-iD8DBQFFma7k0CIvUP7P+AkRAmhEAJ9iaGNDONgW0IKb05a3ohaTDPHAngCglWbp
-p4eaMkwoKdFg1iYNzxP1k3s=
-=8or2
+iD8DBQFFwLZB0CIvUP7P+AkRAiihAJ45CyTv1VrW4mjsUsrQLm+e3iGrVwCgn4Su
+jT7stNF+/lypelY/FrECnKQ=
+=fEhg
 -----END PGP SIGNATURE-----

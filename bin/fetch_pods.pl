@@ -90,13 +90,14 @@ for my $podcast (@sections) {
   my $genre             = $cfg->val($podcast=>'force_genre');
   my $artist            = $cfg->val($podcast=>'force_artist');
   my $album             = $cfg->val($podcast=>'force_album');
+  my $use_pub_date      = $cfg->val($podcast=>'use_pub_date');
 
   unless (defined $url) {
     warn "No podcast RSS URL defined for $podcast\n";
     next;
   }
 
-  true_or_false(\$keep_old,\$rewrite,\$generate_playlist);
+  true_or_false(\$keep_old,\$rewrite,\$generate_playlist,\$use_pub_date);
 
   $limit = 1000 if $limit eq 'none';
   my $feed   = MP3::PodcastFetch->new(
@@ -114,6 +115,7 @@ for my $podcast (@sections) {
                                  -keep_old          => $keep_old,
                                  -playlist_handle   => $m3ufile,
                                  -playlist_base     => $playlist_base,
+                                 -use_pub_date      => $use_pub_date,
                                 );
   $feed->fetch_pods;
   $fetched += $feed->fetched;

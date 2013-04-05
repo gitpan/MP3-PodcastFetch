@@ -5,11 +5,11 @@ my $build = Module::Build->new(
 			       module_name => 'MP3::PodcastFetch',
 			       license     => 'perl',
 			       requires => {
-					    perl               => '5.8.0',
 					    LWP                => '5.8',
 					    'Date::Parse'      => '2.20',
 					    'HTML::Parser'     => '3.50',
 					    'Config::IniFiles' => '2.00',
+					    'URI::Escape'      => 0,
 					    },
 			       PL_files => {
 					    'bin/fetch_pods.PLS' => 'bin/fetch_pods.pl',
